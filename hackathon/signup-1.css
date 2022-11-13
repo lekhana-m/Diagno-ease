@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/136949.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-size: 20px;
+    }
+
+.scont{
+   border: 2px solid white;
+   width: 44%;
+   margin-left: 97px;
+   height: 580px;
+   border-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+}
+.form input{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0px;
+    height: 20px;
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white; 
+    /* font: x-bolder; */
+}
+.btns{
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color:#4040c200;
+    margin-left: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-bottom: 1%;
+    padding: 1%;
+}

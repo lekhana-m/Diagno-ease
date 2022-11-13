@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="facilities.css">
 </head>
 
 <body>
@@ -20,15 +21,16 @@
                 <ul>
                     <li><a href="#home">home</a></li>
                     <li><a href="#about">about</a></li>
-                    <li><a href="#facility">facility</a></li>
                     <li><a href="#review">review</a></li>
+                    <li><a href="#facility">facility</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="#post">post</a></li>
+                    <li><a href="#types">post</a></li>
+                    <li><a href="essentials.html">Vitals</a></li>
                 </ul>
             </div>
             <div class="right">
-                <a href="#"><button class="button">Signin</button></a>
-                <a href="#"><button class="button">Login</button></a>
+                <a href="signup-1.html"><button class="button">Signin</button></a>
+                <a href="login.html"><button class="button">Login</button></a>
             </div>
         </nav>
 
@@ -63,6 +65,9 @@
 
     </section>
 
+
+
+
     <section class="about" id="about">
 
         <div class="container">
@@ -72,27 +77,28 @@
                 <div class="col-md-6 content" data-aos="fade-right">
         
                     <div class="box">
-                        <img src="https://www.kindpng.com/picc/m/146-1466477_icon-big-image-png-ambulance-clipart-black-and.png" alt="photo">
+                        <img src="https://w7.pngwing.com/pngs/1006/342/png-transparent-ambulance-logo-blue-ambulance-material-blue-logo-happy-birthday-vector-images.png" alt="photo">
                         <h3> <i class="fas fa-ambulance"></i> ambulance services </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                     </div>
         
                     <div class="box">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzvqj9lpTfFUpgj2UKPtzkUaqGudmDaEdkw&usqp=CAU" alt="photo">
+                        <img src="https://www.clipartmax.com/png/middle/239-2390101_hospital-bed-icon-png.png" alt="photo">
                         <h3> <i class="fas fa-procedures"></i> emergency rooms </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                     </div>
         
                     <div class="box">
-                        <img src="https://cdn-icons-png.flaticon.com/512/33/33149.png" alt="photo">
+                        <img src="https://i.pinimg.com/736x/bd/49/09/bd490976d8181b9b21363697d7bd54be.jpg" alt="photo">
                         <h3> <i class="fas fa-stethoscope"></i> free check-ups </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
                     </div>
         
                 </div>
-        
-                <div class="col-md-6 d-none d-md-block" data-aos="fade-left">
-                    <img src="images/about-img.png" width="100%" alt="">
+                <div class="photo">
+                    <div class="col-md-6 d-none d-md-block" data-aos="fade-left">
+                        <img src="https://thefamilydoctor.co.in/wp-content/uploads/2020/01/I2-e1578898118449.png" width="100%" alt="">
+                    </div>
                 </div>
         
             </div>
@@ -101,6 +107,279 @@
         
         </section>
 
+
+
+        <section class="review" id="review">
+
+            <div class="container">
+            
+            <h1 class="heading"><span>'</span> people's review <span>'</span></h1>
+            
+            <div class="box-container">
+            
+                <div class="box" data-aos="fade-right">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+                    <h3>someone's name</h3>
+                    <span>jan 5, 2021</span>
+                    <img src="https://i.pinimg.com/originals/0a/53/c3/0a53c3bbe2f56a1ddac34ea04a26be98.jpg" alt="">
+                </div>
+            
+                <div class="box" data-aos="fade-up">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+                    <h3>someone's name</h3>
+                    <span>jan 7, 2021</span>
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+            
+                <div class="box" data-aos="fade-left">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium error numquam dolore atque. Atque totam ad sint ducimus! Maxime!</p>
+                    <h3>someone's name</h3>
+                    <span>jan 10, 2021</span>
+                    <img src="https://wallpapers.com/images/hd/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.jpg" alt="">
+                </div>
+            
+            </div>
+            
+            </div>
+            
+            </section>
+
+            
+
+
+            <section class="product"> 
+                <h2 class="product-category"><span>O</span>ur<span>F</span>acilities</h2>
+                <button class="pre-btn"><img src="arrow.png" alt=""></button>
+                <button class="nxt-btn"><img src="arrow.png" alt=""></button>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 1.jpg" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Experienced Surgeons</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 2.jpg" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Personal Care Assistance</h2>
+                           
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 3.jpg" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Advanced labs</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 4.jpg" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Regular Check-Up</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 5.jpg" class="product-thumb" alt="">
+                            
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">24&nbsp &#215&nbsp 7  Pharmacy</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 6.jpg" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">ICU</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 7.jpg" class="product-thumb" alt="">
+                           
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Smart Ambulance</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="facility 8 .PNG" class="product-thumb" alt="">
+                            
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">No Cost EMI</h2>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+    
+            
+            
+
+
+
+        <section class="contact" id="contact">
+
+            <div class="container min-vh-100">
+        
+                <div class="row justify-content-center">
+        
+                    <h1 class="heading"><span>'</span> make an appointment <span>'</span></h1>
+        
+                    <div class="col-md-10" data-aos="flip-down">
+        
+                        <form action="">
+        
+                            <div class="inputBox">
+                                <input type="text" placeholder="full name">
+                                <input type="number" placeholder="phone">
+                            </div>
+        
+                            <div class="inputBox">
+                                <input type="email" placeholder="your email">
+                                <select name="" id="">
+                                    <option value="" disabled selected>make an appointment</option>
+                                    <option value="09-11 am">09-11 am</option>
+                                    <option value="11-03 pm">11-03 pm</option>
+                                    <option value="03-06 pm">03-06 pm</option>
+                                    <option value="06-09 pm">06-09 pm</option>
+                                </select>
+                            </div>
+        
+                            <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
+        
+                            <input type="submit" name="" id="" value="make appointment" class="button">
+        
+                        </form>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+
+        
+
+
+
+
+        <section id="types">
+            <h1>
+                <span>O</span>ur<span>P</span>ost
+            </h1>
+            <div class="box3" id="services">
+                <div class="inner" id="1">
+                    <img
+                        src="https://static.theprint.in/wp-content/uploads/2018/05/Surgery_in_progress_in_the_OT_of_INHS_Jeevanti.jpg">
+                    <h3> Post heading</h3>
+                        <span>Nov 12, 2022</span>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi debitis voluptate a nam unde sit.
+                    </p>
+                    <a href="#"><button class="button">View</button></a>
+                </div>
+                <div class="inner">
+                    <img
+                        src="https://dims.healthgrades.com/dims3/MMH/4a8890d/2147483647/strip/true/crop/8660x5638+0+0/resize/768x500!/quality/75/?url=https%3A%2F%2Fucmscdn.healthgrades.com%2F9e%2Fea%2Fbd08daca41639e65fe43ea3b0083%2Fgettyimages-1264364998.jpg">
+                    <h3>
+                        Post heading
+                    </h3>
+                        <span>Nov 12, 2022</span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, magni? Accusamus ab perferendis commodi beatae.
+                    </p>
+                    <a href="#"><button class="button">View</button></a>
+                </div>
+                <div class="inner">
+                    <img src="https://cdn.sanity.io/images/0vv8moc6/physpractice/7986e1a7dd471efb188c7092687be20445f8e40f-4200x2800.jpg" alt="">
+                    <h3>
+                        Post heading
+                    </h3>
+                    <span>Nov 12, 2022</span>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus rem expedita, maxime vero adipisci.
+                    </p>
+                    <a href="#"><button class="button">View</button></a>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+
+        <section class="footer">
+
+            <div class="container">
+        
+                <div class="last">
+        
+                    <div id="foot" class="col-md-4" data-aos="fade-right">
+                        <a href="#" class="logo"><span>H</span>ealth<span>C</span>are.</a>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nemo porro quasi minima consequuntur dolorum, quas amet in autem id?</p>
+                    </div>
+        
+                    <div id="foot" class="col-md-4 text-center" data-aos="fade-up">
+                        <h3>links</h3>
+                       <ul> 
+                        <a href="#">home</a>
+                        <a href="#">about</a>
+                        <a href="#">facility</a>
+                        <a href="#">review</a>
+                        <a href="#">contact</a>
+                        <a href="#">post</a>
+                        </ul>
+                    </div>
+        
+                    <div id="foot" class="col-md-4 text-center" data-aos="fade-left">
+                        <h3>share</h3>
+                        <ul>
+                        <a href="#">facebook</a>
+                        <a href="#">twitter</a>
+                        <a href="#">instagram</a>
+                        <a href="#">github</a>
+                    </ul>
+                    </div>
+        
+                </div>
+        
+            </div>
+            <div class="res">
+
+                <p>Copyright &copy; V4 | All rights resevered</p>
+            </div>
+        
+        </section>
+        
+
+        <script src="faclities.js"></script>
     
 </body>
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>essentials</title>
+    <link rel="stylesheet" href="essentials.css">
+</head>
+
+<body>
+    <div class="bp">
+        <center>
+            <h1 class="heading">Blood Pressure</h1>
+            <h2 class="info">Enter your blood Pressure</h2>
+            Systolic:(in mmHg) <input type="text" id="sys">
+
+            <button onclick="sysvalidate()" class="btnc">Check</button></center>
+            <p class="result"> Systolic Result: <span id="result"></span> </p><br><br>
+
+            <center>
+            Diastolic:(in mmHg) <input type="text" id="dia">
+            <button onclick="diavalidate()" class="btnc">Check</button></center>
+            <p class="result"> Diastolic Result: <span id="result1"></span> </p>
+    </div>    
+    <div class="bp">
+        <center>
+            <h1 class="heading">Heart Beat Rate</h1>
+            <h2 class="info">Enter your Heart Beat Rate</h2>
+            Heart Beat(in bpm): <input type="text" id="hb">
+
+            <button onclick="hbvalidate()" class="btnc">Check</button></center>
+            <p class="result"> Result: <span id="hbresult"></span> </p><br><br>
+    </div>
+    <div class="bp">
+        <center>
+            <h1 class="heading">Blood Oxygen Level</h1>
+            <h2 class="info">Enter your Blood Oxygen Level</h2>
+            Blood Oxygen Level(in %): <input type="text" id="bol">
+
+            <button onclick="bolvalidate()" class="btnc">Check</button></center>
+            <p class="result"> Result: <span id="bolresult"></span> </p><br><br>
+    </div>
+
+    <button class="btnc" id="btnbackessential">Back</button>
+        <script src="essentials.js"></script>
+    
+</body>
+
+</html>
