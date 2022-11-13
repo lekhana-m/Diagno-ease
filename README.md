@@ -5,5 +5,5 @@ Persons with heart failure require a good understanding of heart failure in orde
 
 We have tried to come up with an evaluation of a person’s heart risk factors considering his/her blood pressure, heart-beat rate, blood oxygen level. 
 
-We have used HTML , CSS and JavaScript.
+Languages: HTML , CSS and JavaScript.
 
